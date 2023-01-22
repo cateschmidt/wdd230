@@ -1,0 +1,131 @@
+
+  html {
+    font-family: 'Ubuntu', sans-serif;
+    color: #3D2F33;
+  }
+  
+  header {
+    background-color: #44CBB1;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+  
+  
+  header h1 {
+    text-align: center;
+    color: #3D2F33;
+    font-size: 3em;
+    margin:0px;
+    
+    
+  }
+
+  header h2 {
+    text-align: center;
+    color: #3D2F33;
+    font-size: 2em;
+    
+  }
+
+  nav {
+    background-color: #3a3a3a;
+    color: white;
+    padding: 10px;
+  
+  }
+  nav ul {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+  li a {
+      text-decoration: none;
+      color: white;
+      padding:13px;
+  }
+  .heading {
+    color: #861657;
+    background-color: #ffa69e;
+
+  }
+  .main-background {
+    color: #AA4465;
+    background-color: #DDFFF7;
+  }
+
+
+  .heading-text {
+    font-family: impact;
+    background-color: white;
+    font-size: 3em;
+  }
+.paragraph-text {
+    font-family: 'Ubuntu' sans-serif;
+    font-size: 1em;
+}
+.footer-text {
+    font-family: Trebuchet Ms;
+    font-size: 0.75em;
+}
+
+.title-text {
+  font-family: impact;
+  font-size: 4em;
+}
+  
+  main {
+    margin-bottom: 10px;
+    width: auto;
+
+  }
+
+  h1 {
+    background-color: #44CBB1;
+    border-radius: 10px;
+    max-height: 50px;
+    text-align: center;
+  }
+  
+  
+  main p {
+    padding: 1em;
+    text-align: center;
+    font-size: 30px;
+    color: #3D2F33;
+  }
+
+ 
+  img {
+    width: 200px;
+    height: auto;
+    padding: 1em 1em 1em 1em;
+    box-sizing: border-box;
+    border-radius: 60px;
+  }
+  
+  
+  footer {
+    background-color: #44CBB1;
+    margin-top: 30px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+  }
+  
+  footer p {
+    text-align: center;
+    color: #3D2F33;
+  }
+  
+  footer .lastUpdated {
+    font-size: 0.9em;
+    margin: 10px;
+  }
