@@ -2,7 +2,7 @@
 
     document.getElementById("year").innerHTML = date.getFullYear()
     
-    document.getElementById("last-modified").innerHTML = document.lastModified
+    document.getElementById("lastModified").innerHTML = document.lastModified
     
     function toggleMenu() {
         document.getElementById("primNav").classList.toggle("hide")
