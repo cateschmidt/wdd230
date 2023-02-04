@@ -48,13 +48,13 @@ html {
   footer h3 {
     text-align: center;
     color: pink;
-    font-size: 1.5em;
+    font-size: 2em;
     
   }
   
-  footer .last-updated {
+  footer p {
     font-size: 0.9em;
-    margin-top: 10px;
+    text-align: center;
     color: pink;
     font-family: "sans serif";
     
