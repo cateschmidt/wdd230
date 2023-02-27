@@ -60,6 +60,7 @@ nav {
 .navigation a:hover, navigation a:active {
 	color: white;
 	background-color: #47D9BF;
+    width: 150px;
 }
 .responsive li {
 	display: block;
@@ -78,6 +79,12 @@ nav {
     padding: 10px 10px;
 
 }
+.banner {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    color:#F2D03B;
+}
 
 /* *********************************************** */
 /* Main styling */
@@ -90,13 +97,55 @@ nav {
 }
 .join {
     display: none;
+    height: 200px;
 }
+.weather {
+    height: 200px;
+}
+.weather-image {
+    max-width: 30%;
+}
+.hero {
+    height: 200px;
+    
+}
+
+.imagejoin {
+    width: 100%;
+    height: 100%;
+}
+
+.hero-join a:link {
+    text-decoration: none;
+    color:#003056;
+}
+.hero-join {
+    display: block;
+    list-style-type: none;
+    background-color: #00A1D9;
+    width: 200px;
+    height: 40px;
+    border: 1px  solid #00A1D9;
+    border-radius: 10px;
+    margin: auto;
+    
+}
+.hero-join a:hover {
+	color: white;
+	background-color: #47D9BF;
+    width: 150px;
+}
+.event {
+    height: 200px;
+}
+
 .spotlights {
     background-color: white;
     padding: 10px;
+    height: 405px;
 }
 .spotlight1 {
-    border:1px solid #003056;
+    border:1px solid #003056;   
 }
 .spotlight2 {
     border: 1px solid #003056;
