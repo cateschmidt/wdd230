@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="styles/base.css" />
     <link rel="stylesheet" href="styles/medium.css" />
     <link rel="stylesheet" href="styles/large.css" />
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="favicon.ico" />
   </head>
   <body>
     <header>
@@ -62,14 +62,9 @@
       <section class="hero">
         <h3>Welcome to Melbourne</h3>
         <div class="hero-join">
-          <li><a href="#">Join the Chamber</a></li>
-        </div>
-        <div>
-        <img
-          class="imagejoin"
-          src="images/joinphoto.jpg"
-          alt="people in a meeting"
-        >
+          <div class="container">
+            <button class="btn">Join the Chamber</button>
+          </div>
         </div>
       </section>
       <section class="event">
@@ -82,18 +77,20 @@
       </section>
       <section class="weather">
         <h3>Weather</h3>
-        <div class="weather-info">
 
+        <div class="weather-info">
           <img
             class="weather-image"
             src="images/weather.png"
             alt="Image of clouds and sun"
           />
-          <!-- <h4>33℃</h4>
-          <h5>Partly Cloudy</h5>
-          <hr>
-          <p>Wind Speed: 2.5km/hr</p>
-          <p>Wind Chill: N/A</p> -->
+          <div class="weather-calc">
+            <h4>33℃</h4>
+            <h5>Partly Cloudy</h5>
+            <hr />
+            <p>Wind Speed: 2.5km/hr</p>
+            <p>Wind Chill: N/A</p>
+          </div>
         </div>
       </section>
       <section class="join">
@@ -132,9 +129,16 @@
         </div>
         <div class="spotlight3">
           <h3>Build a Shop</h3>
-          <p><em>Over 100 plans!</em></p>
-          <hr />
-          <p>info@shopbuild.com</p>
+          <img
+            class="shopimage"
+            src="/images/shopphoto.png"
+            alt="Image of clouds and sun"
+          />
+
+          <p class="info-3">
+            <em>Over 100 plans!</em
+            ><br /><br />info@shopbuild.com<br />321-657-3782
+          </p>
         </div>
       </section>
     </main>
@@ -155,7 +159,7 @@
         <h3>📌Location Map</h3>
       </div>
       <br />
-      <hr />
+
       <p class="base-footer">
         &copy; <span id="year"></span> Melbourne Chamber | Caitlyn Schmidt| WDD
         230 Project

@@ -47,7 +47,7 @@
     grid-column: 3/4;
 }
 .weather-image {
-    max-width: 50%;
+    max-width: 80%;
 }
 .spotlights {
     display: grid;
