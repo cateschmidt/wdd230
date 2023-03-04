@@ -45,6 +45,9 @@
     grid-row: 2/3;
     grid-column: 1/2;
 }
+.weather-image {
+    width: 100%;
+}
 .join {
     grid-row:3/4;
     grid-column:1/2;
@@ -62,14 +65,29 @@
     grid-column: 4/4;
     height: 640px;
 }
+.spotlight1 {
+    height: 210px;
+}
+.transportimage {
+    width: 20%;
+}
 .spotlight2 {
     grid-row:2/3;
     grid-column: 1/2;
+    height: 210px;
+}
+.tykesimage {
+    width: 20%;
 }
 .spotlight3 {
-    display: grid;
+    display: block;
     grid-row: 3/3;
-    height: 200px;
+    height: 210px;
+}
+.shopimage {
+    width: 20%;
+    display: block;
+    margin: auto;
 }
 .weather-image {
     width: 50%;

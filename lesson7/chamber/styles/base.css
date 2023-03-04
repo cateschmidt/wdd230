@@ -91,9 +91,15 @@ nav {
 .grid-container section {
     background-color: lightgray;
     box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #003056;
 }
-.grid-container section h3 {
+h3 {
     padding: 10px;
+    margin: auto;
+    
+}
+.grid-container section p {
+    margin: 10px;
 }
 .join {
     display: none;
@@ -102,39 +108,52 @@ nav {
 .weather {
     height: 200px;
 }
+.weather-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
 .weather-image {
-    max-width: 30%;
+    width: 60%;
+    margin: auto;
+}
+.weather-calc {
+    grid-column: 2/3;
+    margin-top: -30px;
 }
 .hero {
     height: 200px;
-    
+    position: relative;
+    background-image: url(../images/joinphoto.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.hero h3 {
+    position: absolute;
+    font-size: 30px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white
 }
 
-.imagejoin {
-    width: 100%;
-    height: 100%;
-}
-
-.hero-join a:link {
-    text-decoration: none;
-    color:#003056;
-}
-.hero-join {
-    display: block;
-    list-style-type: none;
+.container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     background-color: #00A1D9;
-    width: 200px;
-    height: 40px;
-    border: 1px  solid #00A1D9;
-    border-radius: 10px;
-    margin: auto;
-    
-}
-.hero-join a:hover {
-	color: white;
-	background-color: #47D9BF;
-    width: 150px;
-}
+    color: #003056;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .container .btn:hover {
+    background-color: #47D9BF;
+  }
 .event {
     height: 200px;
 }
@@ -145,10 +164,22 @@ nav {
     height: 405px;
 }
 .spotlight1 {
-    border:1px solid #003056;   
+    border:1px solid #003056; 
+    height: 200px;  
+}
+.transportimage {
+    width: 15%;
+    display: block;
+    margin: auto;
 }
 .spotlight2 {
     border: 1px solid #003056;
+    height: 200px;
+}
+.tykesimage {
+    width: 15%;
+    display:block;
+    margin: auto;
 }
 .spotlight3 {
     display: none;
@@ -173,6 +204,102 @@ footer img {
     line-height: 0.25px;
     margin: 10px;
 }
+
+/* **************************************************** */
+/* Discovery Page Styling */
+
+.discovery-grid {
+    padding: 10px 20px;
+    margin:auto;
+  }
+  .discovery-grid section {
+    padding: 10px 10px;
+    box-shadow: 3px 3px 3px lightgray;
+  }
+  .culture{
+    padding: 0px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .cultureimage {
+    width: 80%;
+    border: solid 2px #003056;
+    border-radius: 20px;
+    margin: auto;
+    filter: blur(0);
+    transition: filter 1s;
+  }
+  img[data-src] {
+    filter: blur(0.25em);
+  }
+  .beaches{
+    padding: 0px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .beachimage {
+    width: 80%;
+    border: solid 2px #861657;
+    border-radius: 20px;
+    margin: auto;
+    filter: blur(0);
+    transition: filter 1s;
+  }
+  .tours{
+    padding: 0px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .tourimage {
+    width: 80%;
+    border: solid 2px #861657;
+    border-radius: 20px;
+    margin: auto;
+    filter: blur(0);
+    transition: filter 1s;
+  }
+  .stays{
+    padding: 0px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .staysimage {
+    width: 80%;
+    border: solid 2px #861657;
+    border-radius: 20px;
+    margin: auto;
+    filter: blur(0);
+    transition: filter 1s;
+  }
+  .dining{
+    padding: 0px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .diningimage {
+    width: 80%;
+    border: solid 2px #861657;
+    border-radius: 20px;
+    margin: auto;
+    filter: blur(0);
+    transition: filter 1s;
+  }
+  
+  .lastvisited {
+    border: solid 2px #861657;
+    width: 200px;
+    background-color: #93E1D8;
+    border-radius: 10px;
+    font-family: "ubuntu";
+    color: white;
+    padding: 10px;
+  }
+  
 
 
 
