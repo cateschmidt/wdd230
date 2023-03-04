@@ -211,10 +211,19 @@ footer img {
 .discovery-grid {
     padding: 10px 20px;
     margin:auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    
   }
   .discovery-grid section {
     padding: 10px 10px;
-    box-shadow: 3px 3px 3px lightgray;
+    box-shadow: 4px 3px 17px #003056  ; 
+	-webkit-box-shadow: 4px 3px 17px #003056  ; 
+	-moz-box-shadow: 4px 3px 17px #003056  ; 
+    background-color: lightgray;
+    border: 0.5px solid #003056;
+    
   }
   .culture{
     padding: 0px 10px 10px 10px;
@@ -241,7 +250,7 @@ footer img {
   }
   .beachimage {
     width: 80%;
-    border: solid 2px #861657;
+    border: solid 2px #003056;
     border-radius: 20px;
     margin: auto;
     filter: blur(0);
@@ -255,7 +264,7 @@ footer img {
   }
   .tourimage {
     width: 80%;
-    border: solid 2px #861657;
+    border: solid 2px #003056;
     border-radius: 20px;
     margin: auto;
     filter: blur(0);
@@ -269,7 +278,7 @@ footer img {
   }
   .staysimage {
     width: 80%;
-    border: solid 2px #861657;
+    border: solid 2px #003056;
     border-radius: 20px;
     margin: auto;
     filter: blur(0);
@@ -283,7 +292,7 @@ footer img {
   }
   .diningimage {
     width: 80%;
-    border: solid 2px #861657;
+    border: solid 2px #003056;
     border-radius: 20px;
     margin: auto;
     filter: blur(0);
@@ -291,14 +300,13 @@ footer img {
   }
   
   .lastvisited {
-    border: solid 2px #861657;
-    width: 200px;
-    background-color: #93E1D8;
-    border-radius: 10px;
+    width: 250px;
+    border-radius: 5px;
     font-family: "ubuntu";
-    color: white;
-    padding: 10px;
+    color: #003056;
+    
   }
+  
   
 
 
