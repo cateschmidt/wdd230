@@ -1,4 +1,4 @@
-const requestURL = 'chamber/data.json';
+const requestURL = 'chamber/data.jsonhttps://cateschmidt.github.io/wdd230/lesson9/chamber/data.json';
 const list = document.querySelector('#list');
 const table = document.querySelector('.table');
 const grid = document.querySelector('#grid');
