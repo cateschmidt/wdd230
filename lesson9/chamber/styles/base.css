@@ -307,8 +307,186 @@ footer img {
     
   }
   
+  /* **************************************************** */
+/* Join Page Styling */
+.joinh1 {
+  margin: auto;
+  color: #003056  ;
+  text-align: center;
+  width: 75%;
+  border-radius: 0.5rem;
+  padding: 0px;
+  
+}
+.congrats {
+  color: #003056;
+  padding: 20px 20px;
+  font-size: 2rem;
+  margin: auto 10rem;
+  
+  
+}
+.thanks-content p {
+  padding: 70px 10px; 
+  font-size: 1.5rem;
+  margin: auto 10rem; 
+}
+
+form fieldset {
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px 10px;
+  background-color: lightgray;
+  width: 50%;
+}
+form legend {
+  color: #003056;
+  margin: 0 1rem;
+  padding: 0 0.5rem;
+  font-size: 1.5rem;
+}
+form label.user-info, form label.business, form div  {
+  display: block;
+  padding-top: 1rem;
+  color: #003056;
+}
+form label.user-info input, form label.business input{
+  display: block;
+  font-size: 1rem;
+  border: solid 1px black;
+  border-radius: 5px;
+  padding: 0.75rem 0;
+  color: #00A1D9;
+  width: 20rem;
+  
+
+}
+form label.member {
+  display: block;
+  padding: 0.75rem 0;
+  color: #003056;
+}
+form input.submitButton {
+  display: block;
+  margin: auto;
+  border: none;
+  background-color: lightgrey;
+  border: 1px solid black;
+  color: #003056;
+  border-radius: 0.5rem;
+  margin-top: 20px;
+  padding: 0.75rem 1.5rem;
+  width: 60%;
+  max-width: 20rem;
+  font-size: 0.90rem;
+}
+form label.user-info input:required {
+  border-left: red solid 6px;
+}
+form label.user-info input:required:valid {
+  border-left: green solid 6px;
+}
+form label.business input:required {
+  border-left: red solid 6px;
+}
+form label.business input:required:valid {
+  border-left: green solid 6px;
+}
+
+.joinform section {
+  margin: auto 30px;
+  border: solid 1px black;
+  border-radius: 10px;  
+  
+}
+.memberbenefit {
+  background-color: lightgray;
+  width: 80%;
+}
+.memberbenefit div {
+  margin: 10px 10px;
+  padding: 20px 20px;
+  border: solid 1px #00A1D9;
+}
+form label.business textarea {
+  width: 95%; 
+  height: 3rem;
+}
+  
+
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
   
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

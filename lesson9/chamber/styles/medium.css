@@ -219,4 +219,24 @@ footer img {
   }
 
 
+
+ /* **************************************************** */
+/* Join Page Styling */
+.joinh1 {
+  padding: 20px;
+  text-align: center; 
+}
+.joinform {
+  display: grid; 
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  }
+  .memberbenefit {
+  grid-column:2/2;
+  grid-row: 2/2;
+  }
+  .form-content {
+  grid-column: 1/2;
+  grid-row: 2/2;
+  }
 }

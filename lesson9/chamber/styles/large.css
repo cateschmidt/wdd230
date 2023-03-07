@@ -112,4 +112,12 @@
     width: 80%;
 }
 
+
+ /* **************************************************** */
+/* Join Page Styling */
+form label.member {
+    padding: 0.4rem 0;
+    
+}
+
 }
