@@ -490,46 +490,6 @@ form label.business textarea {
   padding: 10px;
 }
 
-tr:nth-child(odd) {
-  background-color: #e5e5e5;
-}
-
-tr td {
-  display: block;
-}
-
-#weather_top {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-}
-
-#weather_top h2{
-  text-align: center;
-  font-size: 3em;
-}
-
-.board {
-  padding: 10px;
-}
-
-.board img {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  overflow: hidden;
-  margin: 10px;
-}
-
-.board {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-}
-
 
   
   
