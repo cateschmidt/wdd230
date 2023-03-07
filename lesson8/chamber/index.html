@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta
+      name="description"
+      content="Chamber Homepage for the WDD230 
+    course at Brigham Young University - Idaho for Caitlyn Schmidt."
+    >
+    <title>Chamber Homepage Caitlyn Schmidt</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles/normalize.css" >
+    <link rel="stylesheet" href="styles/base.css" >
+    <link rel="stylesheet" href="styles/medium.css" >
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="icon" href="favicon.ico">
+  </head>
+  <body>
+    <header>
+      <p class="banner">
+        🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+      </p>
+      <img
+        class="logo"
+        src="images/transparentlogo.webp"
+        alt="Melbourne Chamber Logo"
+      >
+      <div class="title">
+        <h1>Melbourne</h1>
+        <h2>Chamber of Commerce</h2>
+      </div>
+
+      <nav>
+        <div>
+          <a class="socialnav" href="https://instagram.com" target="_blank"
+            ><img class="icons" src="images/instagram.png" alt="instagram icon"
+          ></a>
+
+          <a class="socialnav" href="https://twitter.com" target="_blank"
+            ><img class="icons" src="images/twitter.png" alt="twitter icon"
+          ></a>
+        </div>
+        <ul class="navigation">
+          <li><a id="menu" href="#"></a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="../chamber/discover.html">Discover</a></li>
+          <li><a href="#">Directory</a></li>
+          <li><a href="#">Join</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="date"></div>
+    </header>
+    <main class="grid-container">
+      <section class="hero">
+        <h3>Welcome to Melbourne</h3>
+        <div class="hero-join">
+          <div class="container">
+            <button class="btn">Join the Chamber</button>
+          </div>
+        </div>
+      </section>
+      <section class="event">
+        <h3>Ribbon Cutting</h3>
+        <h4>🧁 Shelly's Organic Bakery</h4>
+        <p>
+          Join us for the grand opening of Shelly's Organic Bakery, Thursday at
+          1:00 PM. More info...
+        </p>
+      </section>
+      <section class="weather">
+        <h3>Weather</h3>
+
+        <div class="weather-info">
+          <img
+            class="weather-image"
+            src="images/weather.png"
+            alt="clouds and sun"
+          >
+          <div class="weather-calc">
+            <h4><span id="temp">36</span>&#8457;</h4>
+            <h5>Partly Cloudy</h5>
+            <hr >
+            <p>Wind:<span id="wind">15</span> MPH</p>
+            <p>Wind Chill: <span id="windchill"></span><span id="windDegree"></span></p>
+          </div>
+        </div>
+      </section>
+      <section class="join">
+        <h3>Do you want to join the chamber?</h3>
+          <div class="join-button">
+            <button class="btn">Join Us Today!</button>
+          </div>
+       
+        <p>
+          Discover how to join the chamber of commerce and how it will benefit
+          your organization!
+        </p>
+      </section>
+      <section class="news">
+        <h3>News Release</h3>
+        <p>
+          The City of Melbourne Florida is excited to announce that the Melbourne 
+          Speedway will be hosting the 7th Annual Candlelight Tour of Homes this 
+          December, from December 14th to the 16th. The long-running event has been 
+          a hit over the years, drawing crowds from around the state. Visitors can 
+          expect to see homes decorated in their finest lights and holiday décor, while 
+          strolling down streets lined with trees strung with twinkling lights. The tour
+          is a great opportunity to visit beautiful homes and enjoy some time out with
+          family and friends.
+        </p>
+      </section>
+      <section class="spotlights">
+        <div class="spotlight1">
+          <h3>Amazing Transport</h3>
+          <img
+          class="transportimage"
+          src="../chamber/images/transport.png"
+          alt="Transport Truck"
+        >
+        
+          <p>"We get it there in one piece!"</p>
+          <hr >
+          <p>info@amazingtransport.com</p>
+          <p>398-886-8865</p>
+        </div>
+        <div class="spotlight2">
+          <h3>Little Tykes</h3>
+          <img
+            class="tykesimage"
+            src="../chamber/images/littletykes.png"
+            alt="Stack of books"
+          >
+          <p>After school program for K-4 students.</p>
+          <hr >
+          <p>contact@littletykes.com</p>
+          <p>321-457-8756</p>
+        </div>
+        <div class="spotlight3">
+          <h3>Build a Shop</h3>
+          <img
+            class="shopimage"
+            src="../chamber/images/shopphoto.png"
+            alt="small shop "
+          >
+
+          <p>We have over 100 plans</p>
+          <hr >
+          <p>contact@shopbuild.com</p>
+          <p>321-457-8256</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <img
+        class="footer-logo"
+        src="images/transparentlogo.webp"
+        alt="Melbourne Chamber Logo"
+      >
+      <div class="title-address">
+        <h2>Melbourne Chamber of Commerce</h2>
+        <h3>99 imaginary rd.<br >Melbourne, Fl 64325</h3>
+      </div>
+      <div class="epl">
+        <h3>info@melbournechamber.org</h3>
+        <h3>(321) 707-5466</h3>
+        <h3>📌Location Map</h3>
+      </div>
+      <br >
+
+      <p class="base-footer">
+        &copy; <span id="year"></span> Melbourne Chamber | Caitlyn Schmidt| WDD
+        230 Project
+      </p>
+      <br >
+      <p class="last-updated">Last Updated: <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/javascript.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/fulldate.js"></script>
+    <script src="scripts/banner.js"></script>
+    <script src="scripts/windchill.js"></script>
+  </body>
+</html>
