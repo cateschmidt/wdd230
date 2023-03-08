@@ -429,7 +429,7 @@ form label.business textarea {
 .cards section {
   border: 2px solid #003056;
   background-color: lightgray;
-  padding: 30px;
+  padding: 25px;
   text-align: center;
   height: 300px;
   width: 250px;
@@ -465,7 +465,8 @@ form label.business textarea {
 
 .icons button {
   background-color: white;
-  border: none;   
+  border: 1px solid #003056;   
+
 }
 
 .icons button:hover {
@@ -485,7 +486,6 @@ form label.business textarea {
 }
 
 .directory td {
-
   padding: 10px;
 }
 
