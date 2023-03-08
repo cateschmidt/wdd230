@@ -431,7 +431,7 @@ form label.business textarea {
   background-color: lightgray;
   padding: 25px;
   text-align: center;
-  height: 300px;
+  height: 350px;
   width: 250px;
   margin: 20px;
 }
@@ -455,7 +455,7 @@ form label.business textarea {
   font-size: 0.75em;
 }
 
-.directory .icons{
+.directory .directory-icons{
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -463,18 +463,18 @@ form label.business textarea {
   margin: 10px;
 }
 
-.icons button {
+.directory-icons button {
   background-color: white;
   border: 1px solid #003056;   
 
 }
 
-.icons button:hover {
+.directory-icons button:hover {
   background-color: lightgray;
   cursor: pointer;
 }
 
-.icons img {
+.directory-icons img {
   width: 50px;
 }
 
