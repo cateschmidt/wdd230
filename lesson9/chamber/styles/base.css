@@ -416,10 +416,8 @@ form label.business textarea {
   
 /* *************************************** */
 /* Directory Page styling */
-
 .directory #content {
-  width: 100%;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .cards {
@@ -429,26 +427,27 @@ form label.business textarea {
   justify-content: center;
 }
 .cards section {
-  border: 2px solid #14213d;
-  background-color: white;
+  border: 2px solid #003056;
+  background-color: lightgray;
   padding: 30px;
   text-align: center;
-  width: 300px;
+  height: 300px;
+  width: 250px;
   margin: 20px;
 }
 
 .directory h2, h1 {
-  color: #14213d;
+  color: #003056;
   text-align: center;
 }
 .directory .cards img {
-  width: 300px;
-  height: 180px;
+  width: 40%;
+  height: auto;
 }
 
 .directory a {
   text-decoration: none;
-  color: #14213d;
+  color: #003056;
 }
 
 .directory p:first-of-type {
@@ -470,7 +469,7 @@ form label.business textarea {
 }
 
 .icons button:hover {
-  background-color: #e5e5e5;
+  background-color: lightgray;
   cursor: pointer;
 }
 
@@ -489,6 +488,20 @@ form label.business textarea {
 
   padding: 10px;
 }
+
+tr:nth-child(odd) {
+  background-color: #e5e5e5;
+}
+
+tr td {
+  display: block;
+}
+
+
+
+
+
+
 
 
   

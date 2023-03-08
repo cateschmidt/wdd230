@@ -116,19 +116,7 @@
             "phone": "321-693-4003",
             "website": "https://www.bemenatural.com/",
             "logo": "images/directory/beme.webp"
-        },
-        {
-            "name": "The Elderberry Fairy",
-            "type": "Health & Wellness",
-            "location": {
-                "address1": "2015 Post Rd.",
-                "city": "Melbourne",
-                "state": "FL",
-                "zip_code": "32901"
-            },
-            "phone": "321-432-7122",
-            "website": "https://www.theelderberryfairy.net/",
-            "logo": "images/directory/elderberry.webp"
         }
+        
     ]
 }
