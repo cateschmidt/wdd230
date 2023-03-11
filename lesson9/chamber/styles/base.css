@@ -19,6 +19,9 @@ header {
     right: 15px;
     line-height: 4px;
 }
+.title-h1 {
+  color: white;
+}
 .icons {
     width: 40px;
     float: right;
