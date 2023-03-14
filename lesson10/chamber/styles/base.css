@@ -502,6 +502,25 @@ tr td {
   display: block;
 }
 
+.wireframes button {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border: 1px solid #003056; 
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 130px;
+
+}
+
+.wireframes button:hover {
+  background-color: lightgray;
+  cursor: pointer;
+  
+}
+
+
 
 
 
