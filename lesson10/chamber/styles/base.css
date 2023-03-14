@@ -502,7 +502,7 @@ tr td {
   display: block;
 }
 
-.wireframes button {
+.wireframes a {
   display: flex;
   flex-direction: row;
   background-color: white;
@@ -514,7 +514,7 @@ tr td {
 
 }
 
-.wireframes button:hover {
+.wireframes a:hover {
   background-color: lightgray;
   cursor: pointer;
   
