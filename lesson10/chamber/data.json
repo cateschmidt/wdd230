@@ -11,7 +11,7 @@
             },
             "phone": "321-259-4778",
             "website": "https://www.broadwaybounddancemelbourne.com/",
-            "logo": "../images/directory/broadway.jpg"
+            "logo": "images/directory/broadway.jpg"
         },
         {
             "name": "Fifth Avenue Art Gallery", 
@@ -24,7 +24,7 @@
             },
             "phone": "321-259-8261",
             "website": "https://fifthavenueartgallery.com/",
-            "logo": "../images/directory/fifthavenue.jpg"
+            "logo": "images/directory/fifthavenue.jpg"
         },
         {
             "name": "Get Fired up Pottery",
@@ -37,7 +37,7 @@
             },
             "phone": "321-729-0222",
             "website": "https://getfireduppottery.com/",
-            "logo": "images/directory/GetFiredUp.png"
+            "logo": "images/directory/getfiredup.jpg"
         },
         {
             "name": "Gatto's Tires & Auto Service",
