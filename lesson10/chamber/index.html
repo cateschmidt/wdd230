@@ -77,18 +77,17 @@
       </section>
       <section class="weather">
         <h3>Weather</h3>
-
-        <div class="weather-info">
-          <img
-            class="weather-image"
-            src="images/weather.png"
-            alt="clouds and sun"
-          >
+        <div class="info"></div>
+        <p> The current weather in Melbourne, Florida is...</p>
+        <figure>
+          <img src="" alt="" id="weather-icon" />
+          <figcaption></figcaption>
+        </figure>
+        </div>
           <div class="weather-calc">
-            <h4><span id="temp">36</span>&#8457;</h4>
-            <h5>Partly Cloudy</h5>
+            <p> <span id="current-temp"></span> &deg;F </p>
             <hr >
-            <p>Wind:<span id="wind">15</span> MPH</p>
+            <p>Wind:<span id="wind"></span> MPH</p>
             <p>Wind Chill: <span id="windchill"></span><span id="windDegree"></span></p>
           </div>
         </div>
@@ -188,5 +187,6 @@
     <script src="scripts/fulldate.js"></script>
     <script src="scripts/banner.js"></script>
     <script src="scripts/windchill.js"></script>
+    <script src="scripts/weatherapi.js"></script>
   </body>
 </html>

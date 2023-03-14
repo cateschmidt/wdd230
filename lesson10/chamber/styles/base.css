@@ -108,18 +108,7 @@ h3 {
     display: none;
     height: 200px;
 }
-.weather {
-    height: 200px;
-}
-.weather-info {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-}
-.weather-image {
-    width: 60%;
-    margin: auto;
-}
+
 .weather-calc {
     grid-column: 2/3;
     margin-top: -30px;
@@ -188,6 +177,19 @@ h3 {
     display: none;
     border: 1px solid #003056;
 }
+.weather info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+#current-temp {
+  display: block;
+  margin: auto;
+  
+}
+
+
+
 
 /* *********************************************** */
 /* Footer styling */
