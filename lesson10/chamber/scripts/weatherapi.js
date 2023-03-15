@@ -3,7 +3,9 @@ const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 
-const url = 'https://api.openweathermap.org/data/2.5/weather?q=Fairbanks&units=imperial&appid=2e52b28e193c5dbda364e2b9891de906';
+
+
+const url = 'https://api.openweathermap.org/data/2.5/weather?q=idaho&units=imperial&appid=2e52b28e193c5dbda364e2b9891de906';
 
 async function apiFetch() {
     try {
@@ -21,7 +23,7 @@ async function apiFetch() {
   }
   
   apiFetch();
-
+  
   function displayResults(weatherData) {
     currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
   
@@ -34,11 +36,26 @@ async function apiFetch() {
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
     captionDesc.textContent = desc;
+    temp = weatherData.main.temp;
 
-    let wind = weatherData.wind.speed;
+    wind = weatherData.wind.speed;
     document.querySelector('#wind').textContent = wind;
+    
+    
+    console.log(temp);
+    console.log(wind);
+
+    
+    if (temp <= 50 && wind > 3) {
+      let chill = ((35.74 + (0.6215 * temp))-(35.75 * Math.pow(wind,0.16)) + (0.4275*temp*Math.pow(wind,0.16)));
+      windchill.textContent = chill.toFixed(2);
+      wind.innerHTML = '&#8457;';
+  }else {
+    windchill.innerHTML = "N/A";
 
   };
+
+}
 
 
 

@@ -35,7 +35,7 @@
 .hero {
     grid-row: 1/3;
     grid-column: 2/4;
-    height: 420px;
+    height: 620px;
 }
 
 .grid-container section hero {
@@ -60,35 +60,36 @@
     grid-template-rows: 1fr 1fr 1fr;
     grid-row: 1/4;
     grid-column: 4/4;
-    height: 640px;
+    height: 920px;
+    padding: 10px;
+    
 }
 .spotlight1 {
-    height: 210px;
+    height: 295px;
 }
 .transportimage {
-    width: 20%;
+    width: 50%;
 }
 .spotlight2 {
     grid-row:2/3;
     grid-column: 1/2;
-    height: 210px;
+    height: 295px;
 }
 .tykesimage {
-    width: 20%;
+    width: 50%;
 }
 .spotlight3 {
     display: block;
     grid-row: 3/3;
-    height: 210px;
+    margin: 10px;
+    height: 280px;
 }
 .shopimage {
-    width: 20%;
+    width: 50%;
     display: block;
     margin: auto;
 }
-.weather-image {
-    width: 50%;
-}
+
 
 /* ********************************* */
 /* Discovery Page Styling */
