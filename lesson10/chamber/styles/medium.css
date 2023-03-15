@@ -77,11 +77,13 @@
     grid-row: 1;
     grid-column: 1/2;
     height: 280px;
+    padding: 10px;
 }
 .spotlight2 {
     grid-row: 1;
     grid-column: 2/2;
     height: 280px;
+    padding: 10px;
   
 }
 .tykesimage {
