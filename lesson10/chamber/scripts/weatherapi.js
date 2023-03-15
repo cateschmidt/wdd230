@@ -5,7 +5,7 @@ const captionDesc = document.querySelector('figcaption');
 
 
 
-const url = 'https://api.openweathermap.org/data/2.5/weather?q=idaho&units=imperial&appid=2e52b28e193c5dbda364e2b9891de906';
+const url = 'https://api.openweathermap.org/data/2.5/weather?q=Melbourne&units=imperial&appid=2e52b28e193c5dbda364e2b9891de906';
 
 async function apiFetch() {
     try {
