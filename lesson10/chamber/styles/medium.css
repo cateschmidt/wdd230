@@ -76,13 +76,11 @@
 .spotlight1 {
     grid-row: 1;
     grid-column: 1/2;
-    margin: 10px;
     height: 280px;
 }
 .spotlight2 {
     grid-row: 1;
     grid-column: 2/2;
-    margin: 10px;
     height: 280px;
   
 }

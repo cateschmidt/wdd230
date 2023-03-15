@@ -97,7 +97,7 @@ nav {
     background-color: lightgray;
     box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     color: #003056;
-    gap: 15px;
+    
    
 }
 h3 {
@@ -160,7 +160,7 @@ h3 {
 }
 .spotlight1 {
     border:1px solid #003056; 
-    height: 300px;  
+    height: 295px;  
 }
 .transportimage {
     width: 40%;
@@ -169,7 +169,7 @@ h3 {
 }
 .spotlight2 {
     border: 1px solid #003056;
-    height: 300px;
+    height: 295px;
 }
 .tykesimage {
     width: 40%;
