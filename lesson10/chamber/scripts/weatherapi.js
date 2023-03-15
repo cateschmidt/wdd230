@@ -3,7 +3,7 @@ const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 
-const url = 'https://api.openweathermap.org/data/2.5/weather?q=Melbourne&units=imperial&appid=2e52b28e193c5dbda364e2b9891de906';
+const url = 'https://api.openweathermap.org/data/2.5/weather?q=Fairbanks&units=imperial&appid=2e52b28e193c5dbda364e2b9891de906';
 
 async function apiFetch() {
     try {
@@ -27,16 +27,19 @@ async function apiFetch() {
   
 
   const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
-    const desc = weatherData.weather[0].description.toUpperCase();
+    const desc = weatherData.weather[0].description;
+
+    
   
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
     captionDesc.textContent = desc;
 
-    let wind = jsObject.wind.speed;
+    let wind = weatherData.wind.speed;
     document.querySelector('#wind').textContent = wind;
-    
+
   };
+
 
 
 
