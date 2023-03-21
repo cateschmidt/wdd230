@@ -1,10 +1,7 @@
 @media screen and (min-width: 65em) {
 /* Header Styling */
 
-.title {
-    display: block;
-    margin: auto;
-}
+
 .navigation {
     display: flex; 
     height: 50px;
@@ -69,7 +66,7 @@
     height: 295px;
 }
 .transportimage {
-    width: 50%;
+    width: 100px;
 }
 .spotlight2 {
     grid-row:2/3;
@@ -77,7 +74,7 @@
     height: 295px;
 }
 .tykesimage {
-    width: 50%;
+    width: 100px;
 }
 .spotlight3 {
     display: block;
@@ -85,7 +82,7 @@
     height: 295px;
 }
 .shopimage {
-    width: 50%;
+    width: 100px;
     display: block;
     margin: auto;
 }

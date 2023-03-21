@@ -4,12 +4,23 @@
     header {
         padding: 15px 0;
     }
-    .title {
-        padding: 20px 250px;
+    .logo {
+      width: 250px;
+      margin-left: -60px; 
     }
-    .title h1 {
+    .title {
+        display: block;
+        line-height: 1px;
+        position: absolute;
+        left: 60%;
+        top: 15%;
+    }
+    .title-h1 {
         display: grid;
         font-size: 50px;
+    }
+    .title-h2 {
+      margin: auto;
     }
 
 /* Main styling */

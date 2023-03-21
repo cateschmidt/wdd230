@@ -9,15 +9,13 @@ header {
     color: white;
 }
 .logo { 
-    width: 250px;
-    margin-left: -60px;
+    display: block;
+    margin: auto;
+    width: 99%;
 
 }
 .title {
-    position: absolute;
-    top: 85px;
-    right: 15px;
-    line-height: 4px;
+ display: none;
 }
 .title-h1 {
   color: white;
@@ -220,6 +218,10 @@ footer img {
 .base-footer p {
     line-height: 0.25px;
     margin: 10px;
+}
+.epl a {
+  color: #F2D03B;
+  text-decoration: none;
 }
 
 /* **************************************************** */
@@ -531,6 +533,22 @@ tr td {
   cursor: pointer;
   
 }
+
+/* Contact Page Styling */
+.chamber-info {
+  color: #003056; 
+  border: 1px solid black;
+  width: 70%;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px auto;
+  display: block;
+  
+}
+.chamber-info iframe {
+  max-width: 100%;
+}
+
 
 
 
