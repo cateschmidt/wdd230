@@ -149,7 +149,7 @@ footer img {
     
   }
   .cultureimage {
-    width: 100%;
+    width: 90%;
     grid-column: 1/2;
     grid-row: 1;
   }
@@ -168,7 +168,7 @@ footer img {
     
   }
   .beachimage {
-    width: 100%;
+    width: 90%;
     grid-column: 2/2;
     grid-row: 1;
   }
@@ -187,7 +187,7 @@ footer img {
     
   }
   .tourimage {
-    width: 100%;
+    width: 90%;
     grid-column: 1/2;
     grid-row: 1;
   }
@@ -206,7 +206,7 @@ footer img {
     
   }
   .staysimage {
-    width: 100%;
+    width: 90%;
     grid-column: 2/2;
     grid-row: 1;
   }
@@ -225,7 +225,7 @@ footer img {
     
   }
   .diningimage {
-    width: 100%;
+    width: 90%;
     grid-column: 1/2;
     grid-row: 1;
   }
