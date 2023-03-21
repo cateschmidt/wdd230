@@ -53,6 +53,7 @@ nav {
     width: 50px;
 	transition: 0.5s;
 	font-size: clamp(1rem, 2vmin, 1.5rem);
+  font-family: 'mulish';
 }
 #menu::before {
 	content: "≡";
@@ -78,6 +79,7 @@ nav {
     font-size: 1.5em;
     width: 95%;
     padding: 10px 10px;
+    font-family:'kavoon';
 
 }
 .banner {
@@ -85,6 +87,7 @@ nav {
     flex-direction: row;
     margin: auto;
     color:#F2D03B;
+    font-family:'mulish';
 }
 
 /* *********************************************** */
@@ -104,10 +107,14 @@ nav {
 h3 {
     padding: 10px;
     margin: auto;
+    font-family: 'kavoon';
+    font-size: 25px;
     
 }
 .grid-container section p {
-   margin: 10px; 
+   margin: 10px;
+   font-family:'mulish';
+   
 }
 .join {
     display: none;
@@ -127,9 +134,7 @@ h3 {
 }
 .hero h3 {
     position: absolute;
-    font-size: 30px;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: white
+    font-size: 40px;
 }
 
 .container .btn {
@@ -146,6 +151,7 @@ h3 {
     cursor: pointer;
     border-radius: 5px;
     text-align: center;
+    font-family:'kavoon';
   }
 
   .container .btn:hover {
@@ -210,19 +216,38 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
+
 footer img {
     display: block;
     margin: auto;
     width:99%;
 }
+
+.title-address h2 {
+  font-family:'kavoon';
+}
+.title-address h3 {
+  font-family:'mulish';
+}
+.base-footer {
+  font-family:'mulish';
+}
 .base-footer p {
     line-height: 0.25px;
     margin: 10px;
+    font-family:'Mulish';
+}
+.last-updated {
+  font-family:'mulish';
+}
+.epl h3 {
+  font-family:'mulish';
 }
 .epl a {
   color: #F2D03B;
   text-decoration: none;
 }
+
 
 /* **************************************************** */
 /* Discovery Page Styling */
@@ -233,6 +258,7 @@ footer img {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 10px;
+    color: #003056;
     
   }
   .discovery-grid section {
@@ -243,6 +269,12 @@ footer img {
     background-color: lightgray;
     border: 0.5px solid #003056;
     
+  }
+  .discovery-grid h2 {
+    font-family:'kavoon';
+  }
+  .discovery-grid p {
+    font-family:'mulish';
   }
   .culture{
     padding: 0px 10px 10px 10px;
@@ -335,13 +367,15 @@ footer img {
   width: 75%;
   border-radius: 0.5rem;
   padding: 0px;
-  
+  font-family:'kavoon';
 }
+
 .congrats {
   color: #003056;
   padding: 20px 20px;
   font-size: 2rem;
   margin: auto 10rem;
+  font-family:'kavoon';
   
   
 }
@@ -349,6 +383,8 @@ footer img {
   padding: 70px 10px; 
   font-size: 1.5rem;
   margin: auto 10rem; 
+  font-family:'mulish';
+  
 }
 
 form fieldset {
@@ -358,12 +394,14 @@ form fieldset {
   padding: 10px 10px;
   background-color: lightgray;
   width: 50%;
+  font-family:'mulish';
 }
 form legend {
   color: #003056;
   margin: 0 1rem;
   padding: 0 0.5rem;
   font-size: 1.5rem;
+  font-family:'mulish';
 }
 form label.user-info, form label.business, form div  {
   display: block;
@@ -399,6 +437,7 @@ form input.submitButton {
   width: 60%;
   max-width: 20rem;
   font-size: 0.90rem;
+  font-family:'mulish';
 }
 form label.user-info input:required {
   border-left: red solid 6px;
@@ -422,6 +461,7 @@ form label.business input:required:valid {
 .memberbenefit {
   background-color: lightgray;
   width: 80%;
+  font-family:'mulish';
 }
 .memberbenefit div {
   margin: 10px 10px;
@@ -458,6 +498,7 @@ form label.business textarea {
 .directory h2, h1 {
   color: #003056;
   text-align: center;
+  font-family:'kavoon';
 }
 .directory .cards img {
   width: 40%;
@@ -467,11 +508,15 @@ form label.business textarea {
 .directory a {
   text-decoration: none;
   color: #003056;
+  font-family:'mulish';
 }
 
 .directory p:first-of-type {
   font-style: italic;
   font-size: 0.75em;
+}
+.directory p {
+  font-family:'mulish';
 }
 
 .directory .directory-icons{
@@ -502,6 +547,7 @@ form label.business textarea {
   border-collapse: collapse;
   margin: auto;
   overflow: hidden;
+  font-family:'mulish';
 }
 
 .directory td {

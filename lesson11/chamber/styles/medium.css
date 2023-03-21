@@ -18,9 +18,11 @@
     .title-h1 {
         display: grid;
         font-size: 50px;
+        font-family: 'kavoon';
     }
     .title-h2 {
       margin: auto;
+      font-family: 'mulish';
     }
 
 /* Main styling */
@@ -33,6 +35,7 @@
     grid-row-gap: 15px;
     padding: 15px;
 }
+
 .hero {
     grid-row: 1/2;
     grid-column:1/4;
@@ -62,6 +65,7 @@
     cursor: pointer;
     border-radius: 5px;
     text-align: center;
+    font-family:'kavoon';
   }
   .join-button .btn:hover {
     background-color: #47D9BF;
