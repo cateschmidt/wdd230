@@ -215,6 +215,7 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
+    overflow-wrap: break-word;
 }
 
 footer img {
@@ -242,6 +243,7 @@ footer img {
 }
 .epl h3 {
   font-family:'mulish';
+  overflow-wrap: break-word;
 }
 .epl a {
   color: #F2D03B;
@@ -373,8 +375,8 @@ footer img {
 .congrats {
   color: #003056;
   padding: 20px 20px;
-  font-size: 2rem;
-  margin: auto 10rem;
+  font-size: 1.5rem;
+  margin: auto;
   font-family:'kavoon';
   
   
@@ -382,7 +384,7 @@ footer img {
 .thanks-content p {
   padding: 70px 10px; 
   font-size: 1.5rem;
-  margin: auto 10rem; 
+  margin: auto;
   font-family:'mulish';
   
 }
@@ -589,7 +591,14 @@ tr td {
   border-radius: 10px;
   margin: 20px auto;
   display: block;
+  overflow-wrap:break-word;
   
+}
+.chamber-info h3 {
+  font-family:'mulish';
+}
+.chamber-info h2 {
+  font-family:'kavoon';
 }
 .chamber-info iframe {
   max-width: 100%;
