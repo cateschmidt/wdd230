@@ -47,165 +47,43 @@
         </div>
         <ul class="navigation">
           <li><a id="menu" href="#"></a></li>
-          <li><a href="https://cateschmidt.github.io/wdd230/Final/home.html">Home</a></li>
-          <li class="active"><a href="https://cateschmidt.github.io/wdd230/Final/fresh.html">Fresh</a></li>
-          <li><a href="https://cateschmidt.github.io/wdd230/Final/about.html">About</a></li>
+          <li><a href="home.html">Home</a></li>
+          <li class="active"><a href="fresh.html">Fresh</a></li>
+          <li><a href="about.html">About</a></li>
         </ul>
       </nav>
     </header>
 
     <main class="fresh-main">
-      <div class="heading">
-        <h1>Welcome to Bountiful Foods!</h1>
-        <div class="heading-fresh">
-          <div class="container">
-            <input
-              type="button"
-              onclick="window.location.href='../Final/fresh.html';"
-              class="btn"
-              value="Create a fresh drink!"
-            >
-          </div>
-        </div>
-      </div>
-      
+      <h2>Create your Drink!</h2>
       <form id="drink-form">
-        <fieldset>
-            <legend>Personal Details</legend>
-            <label class="customer-info">First Name*: <input id="name" type="text" required></label>
-            <label class="customer-info">Email*: <input id="email" type="email" required></label>
-            <label class="customer-info">Phone Number*: <input id="phone" type="tel" required></label>
-        </fieldset>
-        <fieldset>
-          <legend>Ingredients</legend>
-            <h2>Select your Smoothie Mixins!</h2>
-            
-            <label for = "fruit-select-1"> Fruit #1</label>
-                <select id="fruit-select-1" name = "fruit">
-                    <option value="">Select a fruit</option>
-                    <option>Apple</option>
-                    <option>Apricot</option>
-                    <option>Avocado</option>
-                    <option>Banana</option>
-                    <option>Blackberry</option>
-                    <option>Blueberry</option>
-                    <option>Cherry</option>
-                    <option>Dragonfruit</option>
-                    <option>Durian</option>
-                    <option>Feijoa</option>
-                    <option>Fig</option>
-                    <option>Goosberry</option>
-                    <option>Grape</option>
-                    <option>GreenApple</option>
-                    <option>Guava</option>
-                    <option>Kiwi</option>
-                    <option>Kiwifruit</option>
-                    <option>Lemon</option>
-                    <option>Lime</option>
-                    <option>Lingonberry</option>
-                    <option>Lychee</option>
-                    <option>Mango</option>
-                    <option>Melon</option>
-                    <option>Morus</option>
-                    <option>Orange</option>
-                    <option>Papaya</option>
-                    <option>Passonfruit</option>
-                    <option>Pear</option>
-                    <option>Persimmon</option>
-                    <option>Plum</option>
-                    <option>Pomegranate</option>
-                    <option>Raspberry</option>
-                    <option>Strawberry</option>
-                    <option>Tangerine</option>
-                    <option>Tomato</option>
-                    <option>Watermelon</option>
-                    </select>
-            <label for= "fruit-select-2"> Fruit #2</label>    
-                <select id="fruit-select-2" name = "fruit">
-                    <option value="">Select another fruit</option>
-                    <option>Apple</option>
-                    <option>Apricot</option>
-                    <option>Avocado</option>
-                    <option>Banana</option>
-                    <option>Blackberry</option>
-                    <option>Blueberry</option>
-                    <option>Cherry</option>
-                    <option>Dragonfruit</option>
-                    <option>Durian</option>
-                    <option>Feijoa</option>
-                    <option>Fig</option>
-                    <option>Goosberry</option>
-                    <option>Grape</option>
-                    <option>GreenApple</option>
-                    <option>Guava</option>
-                    <option>Kiwi</option>
-                    <option>Kiwifruit</option>
-                    <option>Lemon</option>
-                    <option>Lime</option>
-                    <option>Lingonberry</option>
-                    <option>Lychee</option>
-                    <option>Mango</option>
-                    <option>Melon</option>
-                    <option>Morus</option>
-                    <option>Orange</option>
-                    <option>Papaya</option>
-                    <option>Passonfruit</option>
-                    <option>Pear</option>
-                    <option>Persimmon</option>
-                    <option>Plum</option>
-                    <option>Pomegranate</option>
-                    <option>Raspberry</option>
-                    <option>Strawberry</option>
-                    <option>Tangerine</option>
-                    <option>Tomato</option>
-                    <option>Watermelon</option>
-                </select><br>
-            <label for= "fruit-select-3"> Fruit #3</label>    
-                <select id="fruit-select-3" name = "fruit">
-                    <option value="">Select another fruit</option>
-                    <option>Apple</option>
-                    <option>Apricot</option>
-                    <option>Avocado</option>
-                    <option>Banana</option>
-                    <option>Blackberry</option>
-                    <option>Blueberry</option>
-                    <option>Cherry</option>
-                    <option>Dragonfruit</option>
-                    <option>Durian</option>
-                    <option>Feijoa</option>
-                    <option>Fig</option>
-                    <option>Goosberry</option>
-                    <option>Grape</option>
-                    <option>GreenApple</option>
-                    <option>Guava</option>
-                    <option>Kiwi</option>
-                    <option>Kiwifruit</option>
-                    <option>Lemon</option>
-                    <option>Lime</option>
-                    <option>Lingonberry</option>
-                    <option>Lychee</option>
-                    <option>Mango</option>
-                    <option>Melon</option>
-                    <option>Morus</option>
-                    <option>Orange</option>
-                    <option>Papaya</option>
-                    <option>Passonfruit</option>
-                    <option>Pear</option>
-                    <option>Persimmon</option>
-                    <option>Plum</option>
-                    <option>Pomegranate</option>
-                    <option>Raspberry</option>
-                    <option>Strawberry</option>
-                    <option>Tangerine</option>
-                    <option>Tomato</option>
-                    <option>Watermelon</option>
-                </select><br>
-            <label class="customer-info">Special Instructions<textarea id="special" rows="5" cols="15" placeholder="Special Instructions?"></textarea></label>
-            <input type="button" value="Submit Order!" id="submitbutton">
-        </fieldset>
-    </form>
-    
-    </main>
+          <fieldset>
+              <legend>Your Details</legend>
+              <label class="top">First Name*: <input id="name" type="text" required></label>
+              <label class="top">Email*: <input id="email" type="email" required></label>
+              <label class="top">Phone Number*: <input id="phone" type="tel" required></label>
+          </fieldset>
+          <fieldset>
+              <h2>Select your fillings</h2>
+              <legend>Ingredients</legend>
+              <label for = "fruit-select-1"> What Fruit do you want?</label>
+                  <select id="fruit-select-1" name = "fruit">
+                      <option value="">Select a fruit</option>
+                  </select> <br>
+              <label for= "fruit-select-2"> Select another Fruit?</label>    
+                  <select id="fruit-select-2" name = "fruit">
+                      <option value="">Select another fruit</option>
+                  </select><br>
+              <label for= "fruit-select-3"> Select another Fruit?</label>    
+                  <select id="fruit-select-3" name = "fruit">
+                      <option value="">Select yet another fruit</option>
+                  </select>
+              <label class="top"><textarea id="special" rows="5" cols="15" placeholder="Special Instructions"></textarea>Special Instructions:</label>
+              <input type="button" value="Save" id="submitbutton">
+          </fieldset>
+      </form>
+      <div id="drinkcount"></div>
+  </main>
 
     <footer>
       <img
