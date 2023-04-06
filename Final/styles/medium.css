@@ -16,7 +16,11 @@
 .navigation li:first-child {
     display: none;
 }
-
+.active {
+    background-color: #F29F05;
+    color: white;
+    padding: 10px
+  }
 
 
 /* Main Styling */

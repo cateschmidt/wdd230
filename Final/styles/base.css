@@ -28,7 +28,7 @@ nav {
 }
 .navigation a {
 	display: block;
-	padding: 0.5rem;
+	padding: 0;
 	text-align: left;
 	text-decoration: none;
 	color: #F2f2f2;
