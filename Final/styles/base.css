@@ -1,0 +1,144 @@
+html {
+    background-color: white;
+}
+/* Header */
+header {
+    background-color: #F23827;
+}
+.icons {
+    width: 40px;
+    float: right;
+    margin-right: 20px;
+}
+nav {
+	margin: 0 auto;
+	max-width:760px;
+	background-color: #F23827;
+}
+.navigation {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: #F2f2f2;
+	font-weight: 700;
+    width: 50px;
+	transition: 0.5s;
+	font-size: 2rem;
+  font-family: 'mulish';
+}
+#menu::before {
+	content: "≡";
+	font-size: 4rem;
+	
+}
+.navigation a:hover, navigation a:active {
+	color: white;
+	background-color: #F29F05;
+    width: 150px;
+}
+.responsive li {
+	display: block;
+}
+.responsive #menu::before {
+	content: "X";
+}
+
+/* Main Styling */
+.grid-container {
+	display: grid;
+}
+.grid-container section {
+	background-color: #f2f2f2;
+	color: #048c66;
+	margin: 5px 15px;
+	border: 1px solid black;
+	box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	max-height: 550px;
+}
+.grid-container div  {
+	color: #048C66;
+}
+.grid-container section h3 {
+	font-size: 2rem;
+	text-align: center;
+	font-family: 'Abril Fatface', cursive;
+}
+.grid-container section p {
+	font-size: 1rem;
+	padding: 10px 20px;
+	font-family: 'Timmana', sans-serif;
+
+}
+.heading h3 {
+	font-size: 3rem;
+	text-align: center;
+	font-family: 'Abril Fatface', cursive;
+}
+.container .btn {
+    position: relative;
+    top: 70%;
+    left: 25%;
+    background-color: #F23827;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+	margin-bottom: 20px;
+  }
+  .container .btn:hover {
+    background-color: #F29F05;
+  }
+
+/* Weather Card Styling */
+.grid-container section forecast {
+	font-size: 2px;
+}
+/* Footer Styling */
+
+footer {
+	background-color: #F23827;
+	color: #f2f2f2;
+	margin-top: 15px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+footer a {
+	color: #9FBF2C;
+}
+footer img {
+	max-width: 400px; 	
+}
+footer h4 {
+	font-size: 2rem;
+}
+footer p {
+	font-size: 1.5rem;
+	line-height: 0.5rem;
+}
+.footer-navigation {
+	display: none;
+}
+.contact {
+	border: 1px solid #f2f2f2;
+	box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin: 10px;
+}
+.last-updated {
+	font-size: 1rem;
+}

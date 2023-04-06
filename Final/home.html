@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Chamber Homepage for the WDD230 
+    course at Brigham Young University - Idaho for Caitlyn Schmidt."
+    />
+    <title>Bountiful Foods</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amatic+SC:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amatic+SC:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+  </head>
+  <body>
+    <header>
+      <img
+        class="logo"
+        src="images/white-logo.png"
+        alt="Bountiful Foods Logo"
+      />
+
+      <nav>
+        <div>
+          <a class="socialnav" href="https://instagram.com" target="_blank"
+            ><img class="icons" src="images/instagram.png" alt="instagram icon"
+          /></a>
+
+          <a class="socialnav" href="https://twitter.com" target="_blank"
+            ><img class="icons" src="images/twitter.png" alt="twitter icon"
+          /></a>
+          <a class="socialnav" href="https://facebook.com" target="_blank"
+            ><img class="icons" src="images/facebook.png" alt="twitter icon"
+          /></a>
+        </div>
+        <ul class="navigation">
+          <li><a id="menu" href="#"></a></li>
+          <li><a href="../home.html">Home</a></li>
+          <li><a href="../fresh.html">Fresh</a></li>
+          <li><a href="../about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="grid-container">
+      <div class="heading">
+        <h3>Welcome to Bountiful Foods!</h3>
+        <div class="heading-fresh">
+          <div class="container">
+            <input
+              type="button"
+              onclick="window.location.href='../fresh.html';"
+              class="btn"
+              value="Create a fresh drink!"
+            />
+          </div>
+        </div>
+      </div>
+
+      <section class="weather-card">
+        <h3>Weather</h3>
+        <div class="info"></div>
+        <p>The Current Weather Is...</p>
+        <figure>
+          <img
+            src="null"
+            alt="weather icon from weather API"
+            id="weather-icon"
+          />
+          <figcaption></figcaption>
+        </figure>
+        <p>Temperature: <span id="current-temp"></span> &deg;F</p>
+        <p>Humidity: <span id="humidity"></span>%</p>
+        
+        </section>
+      <section class ="forecast">
+            <h3>3 Day Forecast</h3>
+            <div class="weather">
+                <h4>April 7, 2023</h4>
+                <p>Temperature: 63℉</p>
+                <p>Condition: clear sky</p>
+            </div>
+            <div class="weather">
+                <h4>April 8, 2023</h4>
+                <p>Temperature: 62℉</p>
+                <p>Condition: broken clouds </p>
+            </div>
+            <div class="weather-card">
+                <h4>April 9, 2023</h4>
+                <p>Temperature: 64℉</p>
+                <p>Condition: clear sky </p>
+                
+            </div>
+        </div>
+    </section>
+
+      <section class="summary">
+        <h3>Laguna Beach</h3>
+        <p>
+          The City of Melbourne Florida is excited to announce that the
+          Melbourne Speedway will be hosting the 7th Annual Candlelight Tour of
+          Homes this December, from December 14th to the 16th. The long-running
+          event has been a hit over the years, drawing crowds from around the
+          state.
+        </p>
+      </section>
+
+      <section class="drinks">
+        <h3>Drink Tracker:</h3>
+        <p>You have ordered</p>
+        <p></p>
+        <p>drinks</p>
+      </section>
+    </main>
+
+    <footer>
+      <img
+        class="footer-logo"
+        src="images/white-logo.png"
+        alt="Bountiful Foods Logo"
+      />
+      <div class="contact">
+        <h4>Contact Us!</h4>
+        <p>99 imaginary rd.</p>
+        <p>Carlsbad, CA 64325</p>
+        <p>info@bf.org</p>
+        <p>(321) 707-5466</p>
+        <p>
+          📌Location <a href="https://goo.gl/maps/igr5QyUJfyro6zRb9">Map</a>
+        </p>
+      </div>
+      <br />
+      <hr />
+      <div class="base-footer">
+        <p>&copy; <span id="year"></span> Bountiful Foods</p>
+        <ul class="footer-navigation">
+          <li><a id="menu" href="#"></a></li>
+          <li><a href="../home.html"> Home</a></li>
+          <li><a href="../fresh.html">| Fresh</a></li>
+          <li><a href="../about.html">| About Us</a></li>
+        </ul>
+      </div>
+      <br />
+      <p class="last-updated">Last Updated: <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/date.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/weatherapi.js"></script>
+    <script src="scripts/forecast.js"></script>
+  </body>
+</html>
