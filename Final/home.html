@@ -68,67 +68,57 @@
           </div>
         </div>
       </div>
-<section class = "grid-container">
-      <section class="weather-card">
-        <h3>Weather</h3>
-        <div class="info"></div>
-        <p>The Current Weather Is...</p>
-        <figure>
-          <img
-            src="null"
-            alt="weather icon from weather API"
-            id="weather-icon"
-          />
-          <figcaption></figcaption>
-        </figure>
-        <p>Temperature: <span id="current-temp"></span> &deg;F</p>
-        <p>Humidity: <span id="humidity"></span>%</p>
-        
+      <section class="grid-container">
+        <section class="weather-card">
+          <h3>Weather</h3>
+          <div class="info"></div>
+          <p>The Current Weather Is...</p>
+          <figure>
+            <img
+              src="null"
+              alt="weather icon from weather API"
+              id="weather-icon"
+            />
+            <figcaption></figcaption>
+          </figure>
+          <p>Temperature: <span id="current-temp"></span> &deg;F</p>
+          <p>Humidity: <span id="humidity"></span>%</p>
         </section>
-      <section class ="forecast">
-        <div class="weather">
-          <h3>Weather Forecast 1</h3>
-          <p class="temp-day1"></p>
-          <p class="humidity-day1"></p>
-          <img class="icon-day1" src="" alt="Weather's icon">
-          <p class="desc-day1"></p>
-      </div>
-      <div class="weather">
-          <h3>Weather Forecast 2</h3>
-          <p class="temp-day2"></p>
-          <p class="humidity-day2"></p>
-          <img class="icon-day2" src="" alt="Weather's icon">
-          <p class="desc-day2"></p>
-      </div>
-      <div class="weather">
-          <h3>Weather Forecast 3</h3>
-          <p class="temp-day3"></p>
-          <p class="humidity-day3"></p>
-          <img class="icon-day3" src="" alt="Weather's icon">
-          <p class="desc-day3"></p>
-      </div>
-                
-            </div>
-        </div>
-    </section>
+        <section class="forecast">
+          <div class="weather">
+            <h3>Weather Forecast Day 1</h3>
+            <p class="temp-day1">Temperature High: 62℉</p>
+            <p class="temp-day1">Temperature Low: 55℉</p>
+          </div>
+          <div class="weather">
+            <h3>Weather Forecast Day 2</h3>
+            <p class="temp-day2">Temperature High: 62℉</p>
+            <p class="temp-day1">Temperature Low: 53℉</p>
+          </div>
+          <div class="weather">
+            <h3>Weather Forecast Day 3</h3>
+            <p class="temp-day3">Tempurature High: 64℉</p>
+            <p class="temp-day1">Temperature Low: 54℉</p>
+          </div>
+        </section>
 
-      <section class="summary">
-        <h3>Laguna Beach</h3>
-        <p>
-          The City of Melbourne Florida is excited to announce that the
-          Melbourne Speedway will be hosting the 7th Annual Candlelight Tour of
-          Homes this December, from December 14th to the 16th. The long-running
-          event has been a hit over the years, drawing crowds from around the
-          state.
-        </p>
+        <section class="summary">
+          <h3>Laguna Beach</h3>
+          <p>
+            The City of Melbourne Florida is excited to announce that the
+            Melbourne Speedway will be hosting the 7th Annual Candlelight Tour
+            of Homes this December, from December 14th to the 16th. The
+            long-running event has been a hit over the years, drawing crowds
+            from around the state.
+          </p>
+        </section>
+
+        <div id="drinkcount"></div>
+        <section id="drinks">
+          <h2>Drink Counter</h2>
+          <div id="made"># of Drinks made</div>
+        </section>
       </section>
-
-      <section id="drinks">
-        <h2>Drink Orders</h2>
-        <div id="made"># of Drinks made</div>
-    </div>
-</section>
-    </section>
     </main>
 
     <footer>
@@ -165,5 +155,6 @@
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/weatherapi.js"></script>
     <script src="scripts/forecast.js"></script>
+    <script src="scripts/drinks.js"></script>
   </body>
 </html>

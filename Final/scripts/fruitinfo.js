@@ -41,7 +41,7 @@ async function queryFruit(){
       function save(){
         if (document.querySelector("#drink-form").checkValidity())
         {
-          console.log("You did it!");
+          
           const drinkOut = document.querySelector("#drinkcount");
           const fruitName1 = document.querySelector("#fruit-select-1").value;
           const fruitName2 = document.querySelector("#fruit-select-2").value;
@@ -53,7 +53,7 @@ async function queryFruit(){
           const sugar = sum("sugar", fruitName1, fruitName2, fruitName3);
           const calories = sum("calories", fruitName1, fruitName2, fruitName3);
         
-          const dateStamp = Intl.DateTimeFormat("en-US", {
+          const dateStamp = Intl.DateTimeFormat("en-UK", {
             dateStyle: "full"
           }).format(Date.now());
         
