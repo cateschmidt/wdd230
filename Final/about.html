@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Chamber Homepage for the WDD230 
+    course at Brigham Young University - Idaho for Caitlyn Schmidt."
+    />
+    <title>Bountiful Foods</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amatic+SC:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amatic+SC:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+  </head>
+  <body>
+    <header>
+      <img
+        class="logo"
+        src="images/white-logo.png"
+        alt="Bountiful Foods Logo"
+      />
+
+      <nav>
+        <div>
+          <a class="socialnav" href="https://instagram.com" target="_blank"
+            ><img class="icons" src="images/instagram.png" alt="instagram icon"
+          /></a>
+
+          <a class="socialnav" href="https://twitter.com" target="_blank"
+            ><img class="icons" src="images/twitter.png" alt="twitter icon"
+          /></a>
+          <a class="socialnav" href="https://facebook.com" target="_blank"
+            ><img class="icons" src="images/facebook.png" alt="twitter icon"
+          /></a>
+        </div>
+        <ul class="navigation">
+          <li><a id="menu" href="#"></a></li>
+          <li><a href="../home.html">Home</a></li>
+          <li><a href="../fresh.html">Fresh</a></li>
+          <li><a href="../about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="heading">
+        <h3>Welcome to Bountiful Foods!</h3>
+        <div class="heading-fresh">
+          <div class="container">
+            <input
+              type="button"
+              onclick="window.location.href='../fresh.html';"
+              class="btn"
+              value="Create a fresh drink!"
+            />
+          </div>
+        </div>
+      </div>
+      <section class="about-info">
+        <section class="bountiful-info">
+            <h2>Bountiful Foods</h2>
+            <h3>99 Imaginary Rd.<br>Carlsbad, CA 64325</h3>
+            <h3>Phone: (321) 707-5466</h3>
+            <h3>Email: info@bf.org</h3>
+            <!-- Map -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d106925.71424218826!2d-117.2740307!3d33.1241037!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc73453f3bee59%3A0xa4cb5592fcf65d2f!2sCarlsbad%2C%20CA!5e0!3m2!1sen!2sus!4v1680763863574!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>          </section>
+
+        <section class="historical">
+          <h3 class="historical-info">Historical Information</h3>
+          <p>
+            Carlsbad's history began with the Luiseño people (the Spanish name given to 
+            them because of their proximity to Mission San Luis Rey), as well as some 
+            Kumeyaay in the La Costa area. Nearly every reliable fresh water creek had 
+            at least one native village, including one called Palamai. The site is 
+            located just south of today's Buena Vista Lagoon. 
+            The first European land exploration of Alta California, the Spanish Portolá
+             expedition of 1769, met native villagers while camped on Buena Vista Creek.
+             Another Luiseño villages within today's city of Carlsbad was a village at 
+             the mouth of the San Marcos Creek that the Kumeyaay called 'Ajopunquile'. 
+             A Kumeyaay village that was visited by Portolá was Hakutl, in the Rancho 
+             Ponderosa area.
+          </p>
+        </section>
+
+ 
+    </main>
+
+    <footer>
+      <img
+        class="footer-logo"
+        src="images/white-logo.png"
+        alt="Bountiful Foods Logo"
+      />
+      <div class="contact">
+        <h4>Contact Us!</h4>
+        <p>99 imaginary rd.</p>
+        <p>Carlsbad, CA 64325</p>
+        <p>info@bf.org</p>
+        <p>(321) 707-5466</p>
+        <p>
+          📌Location <a href="https://goo.gl/maps/igr5QyUJfyro6zRb9">Map</a>
+        </p>
+      </div>
+      <br />
+      <hr />
+      <div class="base-footer">
+        <p>&copy; <span id="year"></span> Bountiful Foods</p>
+        <ul class="footer-navigation">
+          <li><a id="menu" href="#"></a></li>
+          <li><a href="../home.html"> Home</a></li>
+          <li><a href="../fresh.html">| Fresh</a></li>
+          <li><a href="../about.html">| About Us</a></li>
+        </ul>
+      </div>
+      <br />
+      <p class="last-updated">Last Updated: <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/date.js"></script>
+    <script src="scripts/hamburger.js"></script>
+  </body>
+</html>

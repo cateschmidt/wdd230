@@ -157,7 +157,6 @@ footer p {
 .fresh-main form {
     border: 2px solid #000000;
 	box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
     border-radius: 35px;
     color: #048C66;
     padding: 15px 15px;
@@ -207,3 +206,28 @@ footer p {
 #submitted-output h2 {
     border-bottom: 1px solid #000000;
 }
+
+/* About Styling */
+
+.about-info section h3 {
+	font-size: 2rem;
+	text-align: center;
+	
+	color: #048C66;
+}
+.about-info section h2 {
+	font-size: 2rem;
+	font-family: 'Abril Fatface', cursive;
+	color: #048C66;
+	text-align: center;
+
+}
+.about-info section p {
+	font-size: 1.5rem;
+	padding: 10px 20px;
+	font-family: 'Timmana', sans-serif;
+	color: #048C66;
+
+}
+
+
